@@ -2,3 +2,4 @@
 .vscode
 .idea
 lib
+__pycache__

@@ -24,7 +24,7 @@ public class HashTable<K, V> {
             }
         }
         if (!found) {
-            kVPairs.add(new KeyValuePair(key, value));
+            kVPairs.addFirst(new KeyValuePair(key, value));
             this.size += 1;
         }
         return value;
